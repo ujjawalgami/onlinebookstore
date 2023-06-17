@@ -4,8 +4,11 @@ pipeline {
        	    stage("git_checkout") {  
            	    steps {  
               	    echo "cloning repository" 
-              	    echo "repo cloned successfully"  
-              	    }  
+              	    git branch: 'J2EE', url: 'https://github.com/ujjawalgami/onlinebookstore.git'  
+              	    }
+                steps {
+                    echo "Maven Testing"
+                    bat 'mvn clean test'
          	    } 
         }
 }
