@@ -8,6 +8,6 @@ pipeline {
                     echo "Maven Testing"
                     bat 'mvn clean test'
               	    }
-            
+            }
         }
 }
