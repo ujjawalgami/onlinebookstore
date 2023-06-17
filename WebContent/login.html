@@ -80,11 +80,8 @@ a:link {
 .brown {
 	color: brown;
 }
-
-.blue {
-	color: blue;
-}
 </style>
+
 <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
@@ -95,49 +92,43 @@ a:link {
 	<div id="topmid">
 		<h1>Welcome to Online Book Store</h1>
 	</div>
+
 	<div class="home">
-		<a href="userlog">Home</a>
+		<a href="index.html">Home</a>
 	</div>
 
 	<div class="home">
-		<a href="ViewBooks.html">Available Books</a>
+		<a href="viewbook">Available Books</a>
 	</div>
-
-	<div class="home">
-		<a href="login.html">Login</a>
-	</div>
-
+	
 	<div class="home">
 		<a href="UserRegister.html">Register</a>
 	</div>
-	
-	<table class="tab brown hd">
+
+	<table class="tab brown hd" bgcolor="black">
 		<tr>
-			<td>Register Here</td>
+			<td>Login or Signup Below</td>
 		</tr>
 	</table>
 
-	<table class="tab" border="0px">
+	<table class="tab" border="0px solid black">
 
 		<tr>
-			<td>
-				<form action="userreg" method="post">
-					Username : <input type="text" name="username"><br /> <br />
-					Password : <input type="password" name="password"><br /> <br />
-					FirstName: <input type="text" name="firstname"><br /> <br />
-					Last Name: <input type="text" name="lastname"><br /> <br />
-					Address : <input type="text" name="address"><br /> <br />
-					Phone No : <input type="text" name="phone"><br /> <br />
-					Email Id : <input type="text" name="mailid"><br /> <br />
-					<input type="submit"
-						value=" I AGREE FOR ALL TERMS & CONDITIONS ! REGISTER ME ">
-				</form>
-			</td>
-
+			<td><a href="AdminLogin.html">Login As Admin</a></td>
 		</tr>
 	</table>
+	<table class="tab" border="0px solid black">
 
-
+		<tr>
+			<td><a href="UserLogin.html"> Login As<span> User</span>
+			</a></td>
+		</tr>
+	</table>
+	<table class="tab green">
+		<tr>
+			<td><a href="UserRegister.html">New user ! Register Here</a></td>
+		</tr>
+	</table>
 
 </body>
 </html>
